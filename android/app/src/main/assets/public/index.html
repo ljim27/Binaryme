@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Binary Compatibility</title>
+    <link rel="manifest" href="manifest.json">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #000;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            text-align: center;
+            animation: fadeIn 1.5s;
+        }
+
+        .button {
+            background: #00ff00;
+            color: #000;
+            padding: 15px 30px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: transform 0.2s, background 0.3s;
+        }
+
+        .button:hover {
+            background: #00cc00;
+            transform: scale(1.1);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .fun-facts {
+            font-size: 14px;
+            color: #ccc;
+            margin-top: 20px;
+            animation: float 3s infinite;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Binary Compatibility</h1>
+        <p>Click the button to start exploring your connections!</p>
+        <button class="button" onclick="navigateToApp()">Start Now</button>
+        <div class="fun-facts">Fun Fact: Compatibility can be decoded with 0s and 1s.</div>
+    </div>
+    <script>
+        function navigateToApp() {
+            window.location.href = "app.html";
+        }
+    </script>
+</body>
+</html>

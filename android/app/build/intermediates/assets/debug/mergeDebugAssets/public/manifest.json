@@ -1,0 +1,29 @@
+{
+    "name": "Binaryme",
+    "short_name": "Binaryme",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#007bff",
+    "icons": [
+      {
+        "src": "assets/icons/app-icon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "screenshots": [
+      {
+        "src": "assets/screenshots/IMG_0305.jpg",
+        "sizes": "1280x720",
+        "type": "image/jpeg"
+      },
+      {
+        "src": "assets/screenshots/IMG_0306.jpg",
+        "sizes": "1280x720",
+        "type": "image/jpeg"
+      }
+    ],
+    "categories": ["utility", "productivity"],
+    "orientation": "portrait"
+  }
