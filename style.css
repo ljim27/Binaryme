@@ -1,0 +1,67 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Prevents iOS from zooming when tapping input */
+html, body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #333;
+    width: 100%;
+    height: 100%;
+    touch-action: manipulation;
+}
+
+/* Ensure input fields do not trigger zoom */
+input, textarea, select {
+    font-size: 16px; /* iOS zoom fix */
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+/* Button styles */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Ensure full-width layout for mobile */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    input, textarea {
+        font-size: 16px !important;
+    }
+    button {
+        width: 90%;
+    }
+}

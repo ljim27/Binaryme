@@ -1,7 +1,0 @@
-{
-	"appId": "com.yourcompany.binaryme",
-	"appName": "Binaryme",
-	"webDir": "www",
-	"bundledWebRuntime": false,
-	"packageClassList": []
-}

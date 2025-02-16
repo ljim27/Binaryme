@@ -1,0 +1,18 @@
+{
+  "name": "binaryme",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@capacitor/cli": "^6.2.0",
+    "@capacitor/core": "^7.0.1",
+    "@capacitor/ios": "^7.0.1",
+    "@capacitor/keyboard": "^7.0.0"
+  },
+  "description": ""
+}

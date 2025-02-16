@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)https://binaryme.netlify.app/app.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Compatibility App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #101010;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 600px;
+            background: #1e1e1e;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        input, select, button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .output {
+            margin-top: 20px;
+            text-align: left;
+        }
+    </style>
+<style>undefined</style><link rel="preconnect" href="https://fonts.googleapis.com/" crossorigin="use-credentials"><link rel="preconnect" href="https://fonts.gstatic.com/"><link rel="stylesheet" href="./Binary Compatibility App_files/css2"></head>
+<body data-new-gr-c-s-check-loaded="14.1223.0" data-gr-ext-installed="">
+    <div class="container">
+        <h1>Binary Compatibility App</h1>
+        <p>Enter two names or a post description to generate insights!</p>
+        <div id="nameInputs">
+            <input type="text" id="name1" placeholder="Enter Name 1">
+            <input type="text" id="name2" placeholder="Enter Name 2 (Optional)">
+        </div>
+        <div id="postInputs" style="display: none;">
+            <input type="text" id="postDescription" placeholder="Enter your post description">
+        </div>
+        <p>Select a goal:</p>
+        <select id="goal" onchange="updateForm()">
+            <option value="self_discovery">Self-Discovery</option>
+            <option value="relationship">Relationship Building</option>
+            <option value="career">Career Growth</option>
+            <option value="friendship">Friendship Compatibility</option>
+            <option value="team">Team Collaboration</option>
+            <option value="social_media_post">Social Media Post</option>
+        </select>
+        <button onclick="generateInsights()">Generate Insights</button>
+        <div id="output" class="output">Insights: Insights will appear here based on your selection.</div>
+    </div>
+    <script src="./Binary Compatibility App_files/app.js"></script>
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
